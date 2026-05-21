@@ -1,0 +1,16 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+data/chroma/*
+!data/chroma/.gitkeep
+data/outputs/*
+!data/outputs/.gitkeep
+data/debug_chunks/*
+!data/debug_chunks/.gitkeep
+*.egg-info/
+dist/
+build/
